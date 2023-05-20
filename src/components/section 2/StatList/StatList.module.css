@@ -1,0 +1,41 @@
+
+.statList{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	margin-top: 35px;
+}
+
+.item{
+	padding: 10px;
+	flex-basis: 25%;
+	text-align: center;
+	color: #fff;
+} 
+
+.label{
+	display: block;
+}
+
+.percentage{
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.docx{
+	background-color: aqua;
+}
+
+.pdf{
+	background-color: blueviolet;
+}
+
+.mp3{
+	background-color: firebrick;
+}
+
+.psd{
+	background-color: darkcyan;
+}
