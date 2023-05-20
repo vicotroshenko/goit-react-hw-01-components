@@ -1,8 +1,10 @@
 import { Container } from "../Container/Container";
 import { Profile } from "../Profile/Profile";
-import { Statistics } from '../Statistics/Statistics'
+import { Statistics } from '../Statistics/Statistics';
+import { FriendList } from "../FriendList/FriendList";
 import user from 'user.json';
 import data from 'data.json';
+import friends from 'friends.json';
 
 
 export const App = () => {
@@ -16,8 +18,8 @@ export const App = () => {
         stats={user.stats} />
     <Statistics 
         stats={data}
-        title = "Upload stats"
-    />
+        title = "Upload stats"/>
+    <FriendList friends ={friends}/>
   </Container>
   );
 };
