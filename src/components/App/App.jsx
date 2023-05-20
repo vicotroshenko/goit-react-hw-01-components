@@ -1,6 +1,6 @@
-import { Container } from "../section 1/Container/Container";
-import { Profile } from "../section 1/Profile/Profile";
-import { Statistics } from '../section 2/Statistics/Statistics'
+import { Container } from "../Container/Container";
+import { Profile } from "../Profile/Profile";
+import { Statistics } from '../Statistics/Statistics'
 import user from 'user.json';
 import data from 'data.json';
 
