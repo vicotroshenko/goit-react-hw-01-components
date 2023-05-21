@@ -1,0 +1,33 @@
+.transactionHistory{
+	width: 750px;
+	margin: 0 auto;
+	border: 1px solid black;
+	font-size: 20px;
+	thead{
+		color: #fff;
+		text-transform: uppercase;
+		tr{
+			background-color: turquoise;
+			height: 50px;
+			th{
+				text-align: center;
+			}
+		}
+	}
+	tbody {
+		font-weight: 400;
+		color: rgb(77, 78, 78);
+		tr{
+			text-align: center;
+			background-color: #fff;
+			text-transform: capitalize;
+			height: 50px;
+			&:nth-child(2n){
+				background-color: gainsboro;
+			}
+			th{
+				text-align: center;
+			}
+		}
+	}
+}
