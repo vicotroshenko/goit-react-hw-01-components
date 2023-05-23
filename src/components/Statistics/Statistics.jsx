@@ -3,9 +3,7 @@ import css from './Statistics.module.css';
 
 export const Statistics =({ stats, title })=> {
 	return <section className={css.statistics}>
-		{title.length > 0 && (
-			<h2 className={css.title}>{title}</h2>
-		)}
+		{title && <h2 className={css.title}>{title}</h2>}
 	<ul className={css.statList}>
 		{stats.map(element => (
 			<li key={element.id} className={`${css.item} ${css[element.label.replace('.', "")]}`}>
